@@ -1,0 +1,55 @@
+{
+  "name": "@fullcalendar/bootstrap",
+  "version": "6.1.11",
+  "title": "FullCalendar Bootstrap 4 Plugin",
+  "description": "Bootstrap 4 theme for FullCalendar",
+  "keywords": [
+    "calendar",
+    "event",
+    "full-sized",
+    "fullcalendar",
+    "bootstrap",
+    "bootstrap4"
+  ],
+  "homepage": "https://fullcalendar.io/docs/bootstrap4",
+  "peerDependencies": {
+    "@fullcalendar/core": "~6.1.11"
+  },
+  "type": "module",
+  "bugs": "https://fullcalendar.io/reporting-bugs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fullcalendar/fullcalendar.git",
+    "directory": "packages/bootstrap4"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Adam Shaw",
+    "email": "arshaw@arshaw.com",
+    "url": "http://arshaw.com/"
+  },
+  "copyright": "2023 Adam Shaw",
+  "types": "./index.d.ts",
+  "main": "./index.cjs",
+  "module": "./index.js",
+  "unpkg": "./index.global.min.js",
+  "jsdelivr": "./index.global.min.js",
+  "exports": {
+    "./package.json": "./package.json",
+    "./index.cjs": "./index.cjs",
+    "./index.js": "./index.js",
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.cjs",
+      "import": "./index.js"
+    },
+    "./internal.cjs": "./internal.cjs",
+    "./internal.js": "./internal.js",
+    "./internal": {
+      "types": "./internal.d.ts",
+      "require": "./internal.cjs",
+      "import": "./internal.js"
+    }
+  },
+  "sideEffects": false
+}
