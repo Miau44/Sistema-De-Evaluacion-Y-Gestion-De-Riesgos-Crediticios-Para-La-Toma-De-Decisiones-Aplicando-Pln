@@ -1,0 +1,52 @@
+{
+    "name": "datatables.net-scroller-bs5",
+    "description": "Scroller for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
+    "main": "js/scroller.bootstrap5.js",
+    "module": "js/scroller.bootstrap5.mjs",
+    "style": "css/scroller.bootstrap5.css",
+    "types": "./types/scroller.bootstrap5.d.ts",
+    "version": "2.4.1",
+    "files": [
+        "css/**/*.css",
+        "js/**/*.js",
+        "js/**/*.mjs",
+        "types/**/*.d.ts"
+    ],
+    "keywords": [
+        "Scroller",
+        "Virtual Scrolling",
+        "Bootstrap",
+        "Bootstrap5",
+        "Datatables",
+        "jQuery",
+        "table",
+        "filter",
+        "sort"
+    ],
+    "dependencies": {
+        "datatables.net-scroller": "2.4.1",
+        "datatables.net-bs5": "1.11 - 2",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-Scroller-Bootstrap5.git"
+    }
+}
