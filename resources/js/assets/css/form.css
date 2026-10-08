@@ -1,0 +1,7 @@
+form .v-input {
+    /* height: 40px; */
+}
+
+form .v-input.v-input--error {
+    /* height: 60px; */
+}
