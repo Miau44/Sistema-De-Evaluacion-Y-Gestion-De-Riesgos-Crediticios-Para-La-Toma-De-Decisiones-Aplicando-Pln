@@ -1,0 +1,33 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@inertiajs/vue3": "^1.0.0",
+        "@tailwindcss/forms": "^0.5.3",
+        "@vitejs/plugin-vue": "^5.0.0",
+        "autoprefixer": "^10.4.12",
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0",
+        "postcss": "^8.4.31",
+        "tailwindcss": "^3.2.1",
+        "vite": "^5.0",
+        "vue": "^3.4.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.5.1",
+        "@mdi/font": "^7.4.47",
+        "bootstrap": "^5.3.3",
+        "bootstrap-icons": "^1.11.3",
+        "bootstrap-social": "^5.1.1",
+        "element-plus": "^2.9.1",
+        "highcharts": "^11.4.8",
+        "pinia": "^2.1.7",
+        "sweetalert2": "^11.10.4",
+        "vue-awesome-paginate": "^1.1.46",
+        "vue-multiselect": "^3.0.0-beta.3"
+    }
+}
