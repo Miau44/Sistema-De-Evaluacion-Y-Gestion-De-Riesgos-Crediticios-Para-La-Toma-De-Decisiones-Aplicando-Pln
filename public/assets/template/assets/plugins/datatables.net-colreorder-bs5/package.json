@@ -1,0 +1,52 @@
+{
+    "name": "datatables.net-colreorder-bs5",
+    "description": "ColReorder for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
+    "main": "js/colReorder.bootstrap5.js",
+    "module": "js/colReorder.bootstrap5.mjs",
+    "style": "css/colReorder.bootstrap5.css",
+    "types": "./types/colReorder.bootstrap5.d.ts",
+    "version": "2.0.0",
+    "files": [
+        "css/**/*.css",
+        "js/**/*.js",
+        "js/**/*.mjs",
+        "types/**/*.d.ts"
+    ],
+    "keywords": [
+        "ColReorder",
+        "Reorder",
+        "Bootstrap",
+        "Bootstrap5",
+        "Datatables",
+        "jQuery",
+        "table",
+        "filter",
+        "sort"
+    ],
+    "dependencies": {
+        "datatables.net-colreorder": "2.0.0",
+        "datatables.net-bs5": ">=2.0.0",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-ColReorder-Bootstrap5.git"
+    }
+}
